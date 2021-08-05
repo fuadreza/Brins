@@ -36,6 +36,7 @@ class FibonacciFragment : Fragment() {
                         result += ","
                     }
                 }
+                binding.tvResult.text = result
             }
         }
     }

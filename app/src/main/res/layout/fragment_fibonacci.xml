@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".fibonacci.FibonacciFragment">
 
-
     <TextView
         android:id="@+id/labelFibonacci"
         android:layout_width="wrap_content"
