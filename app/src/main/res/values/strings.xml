@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Brins</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="home">Home</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="fibonacci">Fibonacci</string>
+    <string name="anagram">Anagram</string>
+    <string name="permutation">Permutation</string>
+    <string name="result">Result</string>
+
+    <string name="hint_fibonacci">Input number</string>
+    <string name="hint_anagram_1">Input first word</string>
+    <string name="hint_anagram_2">Input second word</string>
+    <string name="hint_permutation_1">Input n</string>
+    <string name="hint_permutation_2">Input r</string>
+    <string name="submit">Submit</string>
+</resources>

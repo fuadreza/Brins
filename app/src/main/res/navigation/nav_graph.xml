@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/HomeFragment">
+
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="io.github.fuadreza.brins.home.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_FibonacciFragment"
+            app:destination="@id/FibonacciFragment" />
+
+        <action
+            android:id="@+id/action_HomeFragment_to_AnagramFragment"
+            app:destination="@id/AnagramFragment" />
+
+        <action
+            android:id="@+id/action_HomeFragment_to_PermutationFragment"
+            app:destination="@id/PermutationFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/FibonacciFragment"
+        android:name="io.github.fuadreza.brins.fibonacci.FibonacciFragment"
+        android:label="@string/fibonacci"
+        tools:layout="@layout/fragment_fibonacci" />
+
+    <fragment
+        android:id="@+id/AnagramFragment"
+        android:name="io.github.fuadreza.brins.anagram.AnagramFragment"
+        android:label="@string/anagram"
+        tools:layout="@layout/fragment_anagram" />
+
+    <fragment
+        android:id="@+id/PermutationFragment"
+        android:name="io.github.fuadreza.brins.permutation.PermutationFragment"
+        android:label="@string/permutation"
+        tools:layout="@layout/fragment_permutation" />
+
+
+</navigation>
